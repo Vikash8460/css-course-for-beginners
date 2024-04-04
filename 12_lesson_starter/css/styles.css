@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+.container {
+    column-count: 3; /* Set the number of columns */
+    column-gap: 20px; /* Set the gap between columns */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Item styles */
+.item {
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
