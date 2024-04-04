@@ -1,0 +1,28 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+    width: 50%;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
