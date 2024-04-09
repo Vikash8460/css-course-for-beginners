@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKYGAMES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="top row align-items-center">
+
+            <div class="col-md-4">
+                <div class="header">
+                    <h1>
+                        <a href="/">SKYGAMES</a>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="search-wrap">
+                    <input id="searchInput" class="search-input form-control" type="text" placeholder="Search Events">
+                    <button id="searchClear" class="search-clear btn btn-secondary" style="display: none;">
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <ul class="login-wrap list-inline" style="padding-top: 4%;">
+                    <li class="user error">
+                        <input id="loginName" type="text" placeholder="Username" class="form-control">
+                    </li>
+                    <li>
+                        <input id="password" type="password" placeholder="Password" class="form-control">
+                    </li>
+                    <li class="valid-code">
+                        <input id="validCode" type="text" placeholder="Validation" class="form-control">
+                        <!-- <img id="authenticateImage" src=""> -->
+                    </li>
+                    <li>
+                        <input id="valid" name="valid" type="hidden" value="">
+                    </li>
+                    <li>
+                        <a id="loginBtn" class="btn-login btn btn-primary">
+                            Login
+                            <!-- <img class="icon-login" src=""> -->
+                        </a>
+                    </li>
+                    <li id="errorMsg" class="error" style="display:none"></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="menu-wrap row align-items-center">
+            <div class="col-md-10">
+                <ul id="tabMenu" class="menu nav nav-tabs">
+                    <li class="nav-item">
+                        <a id="menu_Home" href="/" neua="Home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="menu_InPlay" neua="In-Play" class="nav-link">In-Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="menu_MultiMarkets" neua="Multi Markets" class="nav-link">Multi Markets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="" neua="" class="nav-link">Cricket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="" neua="" class="nav-link">Soccer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="" neua="" class="nav-link">Tennis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="" neua="" class="nav-link">Virtual Cricket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="" neua="" class="nav-link"> E-Soccer </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="" neua="" class="nav-link"> IPL Winner </a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="" neua="" class="nav-link"> Sky Trader </a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul class="setting-wrap list-inline">
+                    <li class="time_zone">
+                        <span>Time Zone :</span> GMT+5:30</li>
+                    <li>&nbsp;&nbsp;&nbsp;</li>
+                    <li>
+                        <a id="oneClickSetting" class="one_click" style="cursor: pointer;">One Click Bet</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
